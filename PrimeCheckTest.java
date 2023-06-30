@@ -23,7 +23,7 @@ public class PrimeCheckTest {
   @Test
   public void testPrimes() {
     /* ToDo: insert a test here */
-    int[] primes = {3, 5, 7, 11, 13, 17, 19, 23, 607}
+    int[] primes = {3, 5, 7, 11, 13, 17, 19, 23, 607};
     for (int i : primes)
       assertEquals("Test by Primes for Primes", true, PrimeCheck.isPrime(i));
   }
