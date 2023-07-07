@@ -17,7 +17,7 @@ public class PrimeCheck {
       return false;
     }
     // check odd numbers
-    for (int i = 3; (i * i) <= number; ++i) {
+    for (int i = 3; (i * i) <= number; ++i++) {
       if (number % i == 0)
         return false;
     }
